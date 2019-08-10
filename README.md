@@ -5,7 +5,7 @@ This cli client can be used to play uno on the Uno bot challenge's server. It's 
 # Usage
 
 ## Prerequisites
-- Install and setup [Go](https://golang.org/dl/) if you haven't yet. That's all folks.
+- Install and setup [Go](https://golang.org/dl/) if you haven't yet.
 - You will need an active internet connection when running/building for the first time since uno-cli needs to download some libraries.
 
 ## Playing
