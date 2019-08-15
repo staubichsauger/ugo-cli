@@ -1,4 +1,4 @@
-module github.com/staubichsauger/uno-cli
+module github.com/staubichsauger/ugo-cli
 
 go 1.12
 

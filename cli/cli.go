@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/manifoldco/promptui"
-	"github.com/staubichsauger/uno-cli/game"
+	"github.com/staubichsauger/ugo-cli/game"
 	"io/ioutil"
 	"net/http"
 	"net/url"

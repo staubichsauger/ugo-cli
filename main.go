@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"github.com/staubichsauger/uno-cli/cli"
+	"github.com/staubichsauger/ugo-cli/cli"
 	"log"
 	"net/url"
 	"strconv"
@@ -10,8 +10,8 @@ import (
 )
 
 func main() {
-	host := flag.String("host", "localhost", "uno server host")
-	port := flag.Int("port", 3000, "uno server port")
+	host := flag.String("host", "localhost", "ugo server host")
+	port := flag.Int("port", 3000, "ugo server port")
 	flag.Parse()
 
 	url, err := url.Parse("http://" + *host + ":" + strconv.Itoa(*port))
